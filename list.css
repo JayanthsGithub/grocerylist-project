@@ -1,0 +1,95 @@
+body {
+    background-image: url('linedpaper/linedpaper.png');
+    width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    background-color:antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  p{
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right ;
+    display: grid;
+  }
+  form {
+    color: #000000;
+    justify-content: center;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  input[type="text"]{
+    background-color : #f8f8f8;
+  }
+  
+  #addNeed {
+    background-color : #f8f8f8;
+    color: #3498db;
+  }
+  
+  #addHave {
+    background-color : #f8f8f8;
+    color: #34db3f;
+  }
+  
+  h1 {
+    display: grid;
+    justify-content: center;
+    font-display: none;
+    background-color: #555;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: #8cd741;
+    font-size: 50px;
+  }
+  
+  h2 {
+    display: flexbox;
+    color: #191919;
+    border: 20px;
+    background-color: #8d0808;
+    margin-left: 20px;
+
+    border-radius: 10px;
+    font-size: 42px;
+    letter-spacing: -2px;
+    text-align: left;
+  }
+  .list {
+    color: #555;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 !important;
+    width: 500px;
+    border: 1px solid #dedede;
+  }
+  .list li {
+    list-style: none;
+    background-color : #f8f8f8;
+    justify-content: center;
+    border-bottom: 1px dotted #ccc;
+    text-indent: 25px;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+    color: #0e0e0f;
+  }
+  li a {
+    float: right;
+    text-decoration: none;
+    color: red;
+  }
+  
+  @media (-webkit-min-device-pixel-ratio: 2), /* Webkit-based browsers */
+         (min--moz-device-pixel-ratio: 2),    /* Older Firefox browsers (prior to Firefox 16) */
+         (min-resolution: 2dppx),             /* The standard way */
+         (min-resolution: 192dpi)             /* dppx fallback */
+  {
+      body {
+          background-image: url('linedpaper/linedpaper_@2x.png');
+      }
+  }
